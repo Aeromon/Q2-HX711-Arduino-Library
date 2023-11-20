@@ -14,7 +14,7 @@ class Q2HX711
     Q2HX711(byte output_pin, byte clock_pin);
     virtual ~Q2HX711();
     bool readyToSend();
-    void setGain(byte gain = 128);
+    void setGain(byte gain = 64);
     long read();
 };
 
